@@ -5,6 +5,7 @@ Overview
 --------
 The idea is to provide simple and easily customizable helpers that will make your Razor views slightly cleaner.
 
+Sometimes using built-in html helpers can cause ugly syntax when you don't find exactly correct overrides. For example simple thing like creating a form is done using helper that has 11 overrides. There are no optional parameters or named arguments.
 
 Installation
 ------------
@@ -13,6 +14,16 @@ Installation
 
 Usage
 -----
-For example to load a CSS file
+Examples how to use Assets helper.
 
-     @Assets.CSS("main.css")
+To load a css file
+
+```csharp
+@Assets.CSS("main.css")
+```
+
+To load a javascript file
+
+```csharp
+@Assets.Script("main.css")
+```
