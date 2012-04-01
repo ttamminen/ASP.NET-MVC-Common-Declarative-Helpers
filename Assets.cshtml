@@ -1,0 +1,10 @@
+﻿@using System.Web.Mvc
+@helper CSS(string cssFile, UrlHelper url, string media= "screen"){
+    var path = url.Content("~/Content/css/" + cssFile);
+    <link rel="stylesheet" href="@path" type="text/css" media="@media" /> 
+}
+
+@helper Script(string scriptFile, UrlHelper url) {    
+    var path = url.Content("~/Content/scripts/" + scriptFile);
+    <script type="text/javascript" src="@path"></script>
+}
