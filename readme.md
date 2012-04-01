@@ -10,7 +10,7 @@ Sometimes using built-in html helpers can cause ugly syntax when you don't find 
 Installation
 ------------
 * create folder "App_Code" to the root of your web project
-* copy any cshtml files that you need to the "App_Code" folder
+* copy cshtml files (inside "App_Code") you need to the "App_Code" folder
 
 Usage
 -----
