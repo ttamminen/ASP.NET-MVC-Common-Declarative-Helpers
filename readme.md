@@ -25,5 +25,5 @@ To load a css file
 To load a javascript file
 
 ```csharp
-@Assets.Script("main.css")
+@Assets.Script("main.js")
 ```
